@@ -14,7 +14,7 @@
 # **Schematic**
 
 <div style="text-align: center;">
-    <img src="RoverPi Power Distribution PCB Schematic.svg" style="width: 650px; height: auto;" alt="RoverPi Power Distribution PCB Schematic" title="RoverPi Power Distribution PCB Schematic">
+    <img src="Images/RoverPi Power Distribution PCB Schematic.svg" style="width: 650px; height: auto;" alt="RoverPi Power Distribution PCB Schematic" title="RoverPi Power Distribution PCB Schematic">
 </div>
 
 # **Bill Of Materials**
@@ -117,6 +117,10 @@ R = (V<sub>Supply</sub> - V<sub>LED</sub>) / I<sub>LED</sub>
 The resistor values we calculated, 820 Ohms, are specific to the 7.4 Volt battery we chose that has a maximum voltage of 8.4 Volts. If you decide to use a battery with a higher voltage range, you will need to recalculate these resistor values using the new maximum voltage of your chosen battery. This ensures the current through the LEDs stays within the appropriate range to prevent damage and conserve battery life. Here is a helpful online [LED Series Resistor Calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-led-series-resistor "DigiKey.com") you can use to help you in choosing the right resistor values.
 
 # **Setting The Regulated Output Voltages**
+
+<div style="text-align: center;">
+    <img src="Images/LM350 Circuit.svg" style="width: 500px; height: auto;" alt="LM350 Circuit" title="LM350 Circuit">
+</div>
 
 The LM350 voltage regulators are used to generate precise output voltages for the RoverPi Power Distribution PCB. This is achieved by connecting two external resistors to each regulator. The output voltage of a regulator can be roughly calculated using the following formula:
 
