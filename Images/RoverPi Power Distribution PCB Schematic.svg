@@ -1,0 +1,325 @@
+<svg id="vrsvg" class="" xmlns="http://www.w3.org/2000/svg" width="900" height="1380px">
+
+<style>
+    .txtmain {
+        font-family:sans-serif;
+        font-size:18px;
+    }
+    .txtsub {
+        font-family:sans-serif;
+        font-size:12px;
+    }
+    .linemain {
+        fill:none;
+        stroke:#000000;
+        stroke-width:3;
+        stroke-miterlimit:10;
+    }
+    .capacitor {
+        fill:black;
+        stroke:#000000;
+        stroke-width:3;
+        stroke-miterlimit:10;
+    }
+    .ground {
+        fill:black;
+        stroke:#000000;
+        stroke-width:2;
+        stroke-miterlimit:10;
+    }
+    .transistor {
+        fill:black;
+        stroke:#000000;
+        stroke-width:3;
+        stroke-miterlimit:10;
+    }
+    .mosfet {
+        fill:black;
+        stroke:#000000;
+        stroke-width:3;
+        stroke-miterlimit:10;
+    }
+</style>
+
+<rect x="0" y="0" width="900" height="1380" fill="white"></rect>
+
+<circle class="linemain" cx="15" cy="36" r="4"></circle>
+<circle class="linemain" cx="15" cy="72" r="4"></circle>
+<polyline class="linemain" points="20,36 376,36 376,167"></polyline>
+<polyline class="linemain" points="20,72 50,72 50,100 50,150"></polyline>
+<rect x="35" y="150" class="ground" width="30" height="2"></rect>
+<rect x="40" y="155" class="ground" width="20" height="2"></rect>
+<rect x="45" y="160" class="ground" width="10" height="2"></rect>
+<text transform="matrix(1 0 0 1 25 28.1553)" class="txtmain">Input Supply</text>
+
+<polyline class="linemain" points="50,72 80,72 95,62 95,82 80,72 80,62 80,82"></polyline>
+<polyline class="linemain" points="95,72 125,72 128.823,64 136.469,80 144.115,64 151.761,80 159.407,64 167.053,80 170.876,72 200,72 200,36"></polyline>
+<circle cx="50" cy="72" r="4"></circle>
+<circle cx="200" cy="36" r="4"></circle>
+<text transform="matrix(1 0 0 1 78 103)" class="txtmain">D</text>
+<text transform="matrix(1 0 0 1 92 104.6562)" class="txtsub">1</text>
+<text transform="matrix(1 0 0 1 139 103)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 153 104.6562)" class="txtsub">1</text>
+
+<polyline class="linemain" points="248,36 248,236 175,236"></polyline>
+<circle class="linemain" cx="170" cy="236" r="4"></circle>
+<circle class="linemain" cx="170" cy="272" r="4"></circle>
+<circle class="linemain" cx="170" cy="308" r="4"></circle>
+<circle cx="248" cy="36" r="4"></circle>
+<text transform="matrix(1 0 0 1 77 256)" class="txtmain">Killswitch</text>
+<text transform="matrix(1 0 0 1 85 277)" class="txtmain">Bypass</text>
+<text transform="matrix(1 0 0 1 85 298)" class="txtmain">Jumper</text>
+
+<polyline class="linemain" points="175,308 202,308 202,380 20,380"></polyline>
+<polyline class="linemain" points="20,416 202,416 202,488"></polyline>
+<line class="linemain" x1="20" y1="452" x2="130" y2="452"></line>
+<rect x="187" y="488" class="ground" width="30" height="2"></rect>
+<rect x="192" y="493" class="ground" width="20" height="2"></rect>
+<rect x="197" y="498" class="ground" width="10" height="2"></rect>
+<circle class="linemain" cx="15" cy="380" r="4"></circle>
+<circle class="linemain" cx="15" cy="416" r="4"></circle>
+<circle class="linemain" cx="15" cy="452" r="4"></circle>
+<text transform="matrix(1 0 0 1 25 372.1553)" class="txtmain">Killswitch</text>
+<text transform="matrix(1 0 0 1 25 472.1553)" class="txtmain">Input Supply</text>
+
+<rect x="348" y="198" class="mosfet" width="2" height="40"></rect>
+<rect x="356" y="198" class="mosfet" width="2" height="10"></rect>
+<rect x="356" y="213" class="mosfet" width="2" height="10"></rect>
+<rect x="356" y="228" class="mosfet" width="2" height="10"></rect>
+<line class="linemain" x1="312" y1="218" x2="348" y2="218"></line>
+<polyline class="linemain" points="356,218 376,218 376,203 356,203 376,203 376,167"></polyline>
+<polyline class="mosfet" points="376,218 366,222 366,214, 376,218"></polyline>
+<polyline class="linemain" points="391,223 381,223 386,213 391,223 386,223 386,233 356,233"></polyline>
+<polyline class="linemain" points="386,213 386,203 356,203"></polyline>
+<polyline class="linemain" points="379,215 381,213 391,213 393,211"></polyline>
+<polyline class="linemain" points="356,233 376,233 376,272 465,272"></polyline>
+<circle cx="465" cy="272" r="4"></circle>
+<text transform="matrix(1 0 0 1 401 223)" class="txtmain">Q</text>
+<text transform="matrix(1 0 0 1 415 224.6562)" class="txtsub">1</text>
+
+<rect x="292" y="252" class="transistor" width="2" height="40"></rect>
+<polyline class="transistor" points="312,292 302,288 308,282 312,292"></polyline>
+<polyline class="linemain" points="292,267 312,252 312,218"></polyline>
+<polyline class="linemain" points="292,277 312,292 312,328"></polyline>
+<circle cx="312" cy="218" r="4"></circle>
+<text transform="matrix(1 0 0 1 321 277)" class="txtmain">Q</text>
+<text transform="matrix(1 0 0 1 335 278.6562)" class="txtsub">2</text>
+
+<line class="linemain" x1="312" y1="328" x2="312" y2="340"></line>
+<rect x="297" y="340" class="ground" width="30" height="2"></rect>
+<rect x="302" y="345" class="ground" width="20" height="2"></rect>
+<rect x="307" y="350" class="ground" width="10" height="2"></rect>
+
+<polyline class="linemain" points="312,218 312,182.045 304,178.222 320,170.555 304,162.888 320,155.222 304,147.557 320,139.888 312,136 312,36"></polyline>
+<circle cx="312" cy="36" r="4"></circle>
+<text transform="matrix(1 0 0 1 328 165.6473)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 342 167.304)" class="txtsub">2</text>
+
+<polyline class="linemain" points="175,272 211,272 214.823,264 222.469,280 230.115,264 237.761,280 245.407,264 253.053,280 256.876,272 292,272"></polyline>
+<text transform="matrix(1 0 0 1 225 303)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 239 304.6562)" class="txtsub">3</text>
+
+<polyline class="linemain" points="850,72 820,72 805,62 805,82 820,72 820,62 820,82"></polyline>
+<polyline class="linemain" points="805,72 775,72 771.177,80 763.531,64 755.885,80 748.239,64 740.593,80 732.947,64 729.124,72 700,72 700,36"></polyline>
+<circle cx="850" cy="72" r="4"></circle>
+<circle cx="700" cy="36" r="4"></circle>
+<text transform="matrix(1 0 0 1 802 103)" class="txtmain">D</text>
+<text transform="matrix(1 0 0 1 816 104.6562)" class="txtsub">2</text>
+<text transform="matrix(1 0 0 1 744 103)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 758 104.6562)" class="txtsub">4</text>
+
+<line class="linemain" x1="850" y1="100" x2="850" y2="150"></line>
+<rect x="835" y="150" class="ground" width="30" height="2"></rect>
+<rect x="840" y="155" class="ground" width="20" height="2"></rect>
+<rect x="845" y="160" class="ground" width="10" height="2"></rect>
+<line class="linemain" x1="465" y1="35" x2="465" y2="1137"></line>
+<line class="linemain" x1="465" y1="36" x2="880" y2="36"></line>
+<polyline class="linemain" points="850,100 850,72 880,72"></polyline>
+<circle class="linemain" cx="885" cy="36" r="4"></circle>
+<circle class="linemain" cx="885" cy="72" r="4"></circle>
+<text transform="matrix(1 0 0 1 810 28.1553)" class="txtmain">Supply 0</text>
+
+<line class="linemain" x1="850" y1="400" x2="850" y2="450"></line>
+<rect x="835" y="450" class="ground" width="30" height="2"></rect>
+<rect x="840" y="455" class="ground" width="20" height="2"></rect>
+<rect x="845" y="460" class="ground" width="10" height="2"></rect>
+<rect x="575" y="210" class="linemain" width="80" height="56"></rect>
+<rect x="505" y="310" class="capacitor" width="40" height="4"></rect>
+<rect x="505" y="322" class="capacitor" width="40" height="4"></rect>
+<rect x="764" y="310" class="capacitor" width="40" height="4"></rect>
+<rect x="764" y="322" class="capacitor" width="40" height="4"></rect>
+<line class="linemain" x1="575" y1="236" x2="465" y2="236"></line>
+<line class="linemain" x1="881" y1="236" x2="655" y2="236"></line>
+<polyline class="linemain" points="523.5,400 850,400 850,272 880,272"></polyline>
+<line class="linemain" x1="525" y1="236" x2="525" y2="314"></line>
+<line class="linemain" x1="525" y1="322" x2="525" y2="400"></line>
+<line class="linemain" x1="784" y1="236" x2="784" y2="314"></line>
+<line class="linemain" x1="784" y1="322" x2="784" y2="400"></line>
+<polyline class="linemain" points="711,318 615,318 615,265"></polyline>
+<polyline class="linemain" points="711,318 711,300.553 703,296.73 719,289.063 703,281.396 719,273.73 703,266.065 719,258.396 711,254.508 711,236"></polyline>
+<polyline class="linemain" points="711,400 711,381.553 703,377.73 719,370.063 703,362.396 719,354.73 703,347.065 719,339.396 711,335.508 711,318"></polyline>
+<circle class="linemain" cx="885" cy="236" r="4"></circle>
+<circle class="linemain" cx="885" cy="272" r="4"></circle>
+<circle cx="711" cy="236" r="4"></circle>
+<circle cx="711" cy="318" r="4"></circle>
+<circle cx="711" cy="400" r="4"></circle>
+<circle cx="784" cy="236" r="4"></circle>
+<circle cx="784" cy="400" r="4"></circle>
+<circle cx="525" cy="236" r="4"></circle>
+<circle cx="465" cy="236" r="4"></circle>
+<circle cx="850" cy="400" r="4"></circle>
+<text transform="matrix(1 0 0 1 546 228.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 560 229.812)" class="txtsub">in</text>
+<text transform="matrix(1 0 0 1 661 228.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 675 229.812)" class="txtsub">out</text>
+<text transform="matrix(1 0 0 1 619 283.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 633 284.812)" class="txtsub">adj</text>
+<text transform="matrix(1 0 0 1 727 284.1553)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 741 285.812)" class="txtsub">5</text>
+<text transform="matrix(1 0 0 1 727 364.1563)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 741 365.8125)" class="txtsub">6</text>
+<text transform="matrix(1 0 0 1 555 324.1553)" class="txtmain">C</text>
+<text transform="matrix(1 0 0 1 569 326.1035)" class="txtsub">1</text>
+<text transform="matrix(1 0 0 1 814 324.1553)" class="txtmain">C</text>
+<text transform="matrix(1 0 0 1 828 326.1035)" class="txtsub">2</text>
+<text transform="matrix(1 0 0 1 588 204.1553)" class="txtmain">LM350</text>
+<text transform="matrix(1 0 0 1 810 228.1553)" class="txtmain">Supply 1</text>
+
+<line class="linemain" x1="850" y1="700" x2="850" y2="750"></line>
+<rect x="835" y="750" class="ground" width="30" height="2"></rect>
+<rect x="840" y="755" class="ground" width="20" height="2"></rect>
+<rect x="845" y="760" class="ground" width="10" height="2"></rect>
+<rect x="575" y="510" class="linemain" width="80" height="56"></rect>
+<rect x="505" y="610" class="capacitor" width="40" height="4"></rect>
+<rect x="505" y="622" class="capacitor" width="40" height="4"></rect>
+<rect x="764" y="610" class="capacitor" width="40" height="4"></rect>
+<rect x="764" y="622" class="capacitor" width="40" height="4"></rect>
+<line class="linemain" x1="575" y1="536" x2="465" y2="536"></line>
+<line class="linemain" x1="881" y1="536" x2="655" y2="536"></line>
+<polyline class="linemain" points="523.5,700 850,700 850,572 880,572"></polyline>
+<line class="linemain" x1="525" y1="536" x2="525" y2="614"></line>
+<line class="linemain" x1="525" y1="622" x2="525" y2="700"></line>
+<line class="linemain" x1="784" y1="536" x2="784" y2="614"></line>
+<line class="linemain" x1="784" y1="622" x2="784" y2="700"></line>
+<polyline class="linemain" points="711,618 615,618 615,565"></polyline>
+<polyline class="linemain" points="711,618 711,600.553 703,596.73 719,589.063 703,581.396 719,573.73 703,566.065 719,558.396 711,554.508 711,536"></polyline>
+<polyline class="linemain" points="711,700 711,681.553 703,677.73 719,670.063 703,662.396 719,654.73 703,647.065 719,639.396 711,635.508 711,618"></polyline>
+<circle class="linemain" cx="885" cy="536" r="4"></circle>
+<circle class="linemain" cx="885" cy="572" r="4"></circle>
+<circle cx="711" cy="536" r="4"></circle>
+<circle cx="711" cy="618" r="4"></circle>
+<circle cx="711" cy="700" r="4"></circle>
+<circle cx="784" cy="536" r="4"></circle>
+<circle cx="784" cy="700" r="4"></circle>
+<circle cx="525" cy="536" r="4"></circle>
+<circle cx="465" cy="536" r="4"></circle>
+<circle cx="850" cy="700" r="4"></circle>
+<text transform="matrix(1 0 0 1 546 528.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 560 529.812)" class="txtsub">in</text>
+<text transform="matrix(1 0 0 1 661 528.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 675 529.812)" class="txtsub">out</text>
+<text transform="matrix(1 0 0 1 619 583.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 633 584.812)" class="txtsub">adj</text>
+<text transform="matrix(1 0 0 1 727 584.1553)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 741 585.812)" class="txtsub">7</text>
+<text transform="matrix(1 0 0 1 727 664.1563)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 741 665.8125)" class="txtsub">8</text>
+<text transform="matrix(1 0 0 1 555 624.1553)" class="txtmain">C</text>
+<text transform="matrix(1 0 0 1 569 626.1035)" class="txtsub">3</text>
+<text transform="matrix(1 0 0 1 814 624.1553)" class="txtmain">C</text>
+<text transform="matrix(1 0 0 1 828 626.1035)" class="txtsub">4</text>
+<text transform="matrix(1 0 0 1 588 504.1553)" class="txtmain">LM350</text>
+<text transform="matrix(1 0 0 1 810 528.1553)" class="txtmain">Supply 2</text>
+
+<line class="linemain" x1="850" y1="1000" x2="850" y2="1050"></line>
+<rect x="835" y="1050" class="ground" width="30" height="2"></rect>
+<rect x="840" y="1055" class="ground" width="20" height="2"></rect>
+<rect x="845" y="1060" class="ground" width="10" height="2"></rect>
+<rect x="575" y="810" class="linemain" width="80" height="56"></rect>
+<rect x="505" y="910" class="capacitor" width="40" height="4"></rect>
+<rect x="505" y="922" class="capacitor" width="40" height="4"></rect>
+<rect x="764" y="910" class="capacitor" width="40" height="4"></rect>
+<rect x="764" y="922" class="capacitor" width="40" height="4"></rect>
+<line class="linemain" x1="575" y1="836" x2="465" y2="836"></line>
+<line class="linemain" x1="881" y1="836" x2="655" y2="836"></line>
+<polyline class="linemain" points="523.5,1000 850,1000 850,872 880,872"></polyline>
+<line class="linemain" x1="525" y1="836" x2="525" y2="914"></line>
+<line class="linemain" x1="525" y1="922" x2="525" y2="1000"></line>
+<line class="linemain" x1="784" y1="836" x2="784" y2="914"></line>
+<line class="linemain" x1="784" y1="922" x2="784" y2="1000"></line>
+<polyline class="linemain" points="711,918 615,918 615,865"></polyline>
+<polyline class="linemain" points="711,918 711,900.553 703,896.73 719,889.063 703,881.396 719,873.73 703,866.065 719,858.396 711,854.508 711,836"></polyline>
+<polyline class="linemain" points="711,1000 711,981.553 703,977.73 719,970.063 703,962.396 719,954.73 703,947.065 719,939.396 711,935.508 711,918"></polyline>
+<circle class="linemain" cx="885" cy="836" r="4"></circle>
+<circle class="linemain" cx="885" cy="872" r="4"></circle>
+<circle cx="711" cy="836" r="4"></circle>
+<circle cx="711" cy="918" r="4"></circle>
+<circle cx="711" cy="1000" r="4"></circle>
+<circle cx="784" cy="836" r="4"></circle>
+<circle cx="784" cy="1000" r="4"></circle>
+<circle cx="525" cy="836" r="4"></circle>
+<circle cx="465" cy="836" r="4"></circle>
+<circle cx="850" cy="1000" r="4"></circle>
+<text transform="matrix(1 0 0 1 546 828.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 560 829.812)" class="txtsub">in</text>
+<text transform="matrix(1 0 0 1 661 828.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 675 829.812)" class="txtsub">out</text>
+<text transform="matrix(1 0 0 1 619 883.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 633 884.812)" class="txtsub">adj</text>
+<text transform="matrix(1 0 0 1 727 884.1553)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 741 885.812)" class="txtsub">9</text>
+<text transform="matrix(1 0 0 1 727 964.1563)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 741 965.8125)" class="txtsub">10</text>
+<text transform="matrix(1 0 0 1 555 924.1553)" class="txtmain">C</text>
+<text transform="matrix(1 0 0 1 569 926.1035)" class="txtsub">5</text>
+<text transform="matrix(1 0 0 1 814 924.1553)" class="txtmain">C</text>
+<text transform="matrix(1 0 0 1 828 926.1035)" class="txtsub">6</text>
+<text transform="matrix(1 0 0 1 588 804.1553)" class="txtmain">LM350</text>
+<text transform="matrix(1 0 0 1 810 828.1553)" class="txtmain">Supply 3</text>
+
+<line class="linemain" x1="850" y1="1300" x2="850" y2="1350"></line>
+<rect x="835" y="1350" class="ground" width="30" height="2"></rect>
+<rect x="840" y="1355" class="ground" width="20" height="2"></rect>
+<rect x="845" y="1360" class="ground" width="10" height="2"></rect>
+<rect x="575" y="1110" class="linemain" width="80" height="56"></rect>
+<rect x="505" y="1210" class="capacitor" width="40" height="4"></rect>
+<rect x="505" y="1222" class="capacitor" width="40" height="4"></rect>
+<rect x="764" y="1210" class="capacitor" width="40" height="4"></rect>
+<rect x="764" y="1222" class="capacitor" width="40" height="4"></rect>
+<line class="linemain" x1="575" y1="1136" x2="465" y2="1136"></line>
+<line class="linemain" x1="881" y1="1136" x2="655" y2="1136"></line>
+<polyline class="linemain" points="523.5,1300 850,1300 850,1172 880,1172"></polyline>
+<line class="linemain" x1="525" y1="1136" x2="525" y2="1214"></line>
+<line class="linemain" x1="525" y1="1222" x2="525" y2="1300"></line>
+<line class="linemain" x1="784" y1="1136" x2="784" y2="1214"></line>
+<line class="linemain" x1="784" y1="1222" x2="784" y2="1300"></line>
+<polyline class="linemain" points="711,1218 615,1218 615,1165"></polyline>
+<polyline class="linemain" points="711,1218 711,1200.553 703,1196.73 719,1189.063 703,1181.396 719,1173.73 703,1166.065 719,1158.396 711,1154.508 711,1136"></polyline>
+<polyline class="linemain" points="711,1300 711,1281.553 703,1277.73 719,1270.063 703,1262.396 719,1254.73 703,1247.065 719,1239.396 711,1235.508 711,1218"></polyline>
+<circle class="linemain" cx="885" cy="1136" r="4"></circle>
+<circle class="linemain" cx="885" cy="1172" r="4"></circle>
+<circle cx="711" cy="1136" r="4"></circle>
+<circle cx="711" cy="1218" r="4"></circle>
+<circle cx="711" cy="1300" r="4"></circle>
+<circle cx="784" cy="1136" r="4"></circle>
+<circle cx="784" cy="1300" r="4"></circle>
+<circle cx="525" cy="1136" r="4"></circle>
+<circle cx="850" cy="1300" r="4"></circle>
+<text transform="matrix(1 0 0 1 546 1128.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 560 1129.812)" class="txtsub">in</text>
+<text transform="matrix(1 0 0 1 661 1128.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 675 1129.812)" class="txtsub">out</text>
+<text transform="matrix(1 0 0 1 619 1183.1553)" class="txtmain">V</text>
+<text transform="matrix(1 0 0 1 633 1184.812)" class="txtsub">adj</text>
+<text transform="matrix(1 0 0 1 727 1184.1553)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 741 1185.812)" class="txtsub">11</text>
+<text transform="matrix(1 0 0 1 727 1264.1563)" class="txtmain">R</text>
+<text transform="matrix(1 0 0 1 741 1265.8125)" class="txtsub">12</text>
+<text transform="matrix(1 0 0 1 555 1224.1553)" class="txtmain">C</text>
+<text transform="matrix(1 0 0 1 569 1226.1035)" class="txtsub">7</text>
+<text transform="matrix(1 0 0 1 814 1224.1553)" class="txtmain">C</text>
+<text transform="matrix(1 0 0 1 828 1226.1035)" class="txtsub">8</text>
+<text transform="matrix(1 0 0 1 588 1104.1553)" class="txtmain">LM350</text>
+<text transform="matrix(1 0 0 1 810 1128.1553)" class="txtmain">Supply 4</text>
+
+</svg>
