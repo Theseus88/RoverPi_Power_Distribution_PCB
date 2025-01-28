@@ -152,8 +152,8 @@ Remember, these are estimates, and the actual power dissipation may vary dependi
 # **Mounting Kit For TO-220 Heat Sinks**
 
 <div style="text-align: center;">
-    <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/922/4880G.JPG" style="width: 250px; height: auto;" alt="Mounting Kit For TO-220 Heat Sinks" title="Mounting Kit For TO-220 Heat Sinks">
-    <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4843/110_7-345-1PP-BA.jpg" style="width: 250px; height: auto;" alt="Heat Sink TO-220 Aluminum 6.0W @ 50°C Board Level" title="Heat Sink TO-220 Aluminum 6.0W @ 50°C Board Level">
+    <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/922/4880G.JPG" style="width: 250px; height: auto;" alt="Images/4880G.jpg" title="Mounting Kit For TO-220 Heat Sinks">
+    <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4843/110_7-345-1PP-BA.jpg" style="width: 250px; height: auto;" alt="Images/7-345-1PP-BA.jpg" title="Heat Sink TO-220 Aluminum 6.0W @ 50°C Board Level">
 </div>
 
 Boyd Laconia, LLC's Mounting Kit For TO-220 Heat Sinks is essential for safely attaching CTS Thermal Management Products' Heat Sink TO-220 Aluminum 6.0W @ 50°C Board Level to the TO-220 components on the RoverPi Power Distribution PCB. The kit includes a low-cost polymide plastic insulating film and a polyphenylene sulfide shoulder washer to prevent short circuits by electrically isolating the heat sink assembly from the TO-220 components. Proper electrical insulation is crucial for the safe and reliable operation of the electronics.
